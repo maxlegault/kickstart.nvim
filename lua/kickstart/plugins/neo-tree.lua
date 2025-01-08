@@ -14,6 +14,7 @@ return {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
+    auto_clean_after_session_restore = false,
     filesystem = {
       window = {
         mappings = {
